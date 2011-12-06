@@ -1,0 +1,6 @@
+    # change "host" to the IP of your TiVo, then copy this to ~/.siriproxy/config.yml
+    - name: 'Tivo'
+      path: './plugins/siriproxy-tivo'
+      host: '192.168.1.xxx'
+      delay: 1.3
+      short_delay: 0.3

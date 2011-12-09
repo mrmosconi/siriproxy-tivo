@@ -4,6 +4,8 @@ The idea here is to control your TiVo with Siri. For a lot of commands, this is 
 
 Given that, the one thing I don't like about TiVo (and I _love_ TiVo!) is text entry for searches. This is where this plugin shines. You simply say "tivo search 'some show'", and it does all the dirty work for you. When it's done, you should have the show at the top of your list on the search screen, and you can proceed from there using your remote.
 
+Video demo: http://youtu.be/z5uzQK3tiU4
+
 Installation:
 
 IMPORTANT! Make sure you have enabled TiVo's Network Remote capabilities first. You can do this from "Messages & Settings > Settings > Remote > Network Remote Control". Set it to "Enabled". This plugin won't work unless this setting is enabled.

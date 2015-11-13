@@ -20,7 +20,7 @@ If you say "tivo ____", it will relay that command directly to the TiVo, with a 
 
 How it works:
 
-TiVo supports a limited set of commands to control it over a TCP/IP network (assuming you have Network Remote enabled). It listens on port 31339. The full protocol is described here: http://www.tivo.com/assets/images/abouttivo/resources/downloads/brochures/TiVo_TCP_Network_Remote_Control_Protocol_073108.pdf
+TiVo supports a limited set of commands to control it over a TCP/IP network (assuming you have Network Remote enabled). It listens on port 31339. The full protocol is described here: http://tivocommunity.com/tivo-vb/showthread.php?t=392385
 
 With this protocol, you can do things like Up, Down, Select, etc. Pretty much whatever the remote can do. However, it's a stateless protocol, meaning it doesn't keep track of where you are each time you connect. As a result, to get to anywhere specific, you have to start fresh each time. In the case of search, you have to navigate the specific screen, and once you get to the search screen, you have to figure out how to get to each letter. It's sort of like guiding a blind man through a maze (e.g., right 3, down 2, select, etc.).
 
